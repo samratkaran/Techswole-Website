@@ -31,7 +31,7 @@ export function ContactForm({ onSuccess, className = "" }: ContactFormProps) {
     e.preventDefault()
     setIsSubmitting(true)
     setSubmitError("")
-
+// this is new comment added to just push code
     try {
       // In a real implementation, you would send the form data to your server
       // For now, we'll simulate a successful submission after a delay
