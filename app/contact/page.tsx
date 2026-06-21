@@ -187,11 +187,11 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Office Address</h3>
                     <p className="text-gray-600">
-                      123 Software Street
+                      Unit - 151, First Floor, Tower A
                       <br />
-                      Tech City, TC 12345
+                     JMD Megapolis, Sector 48
                       <br />
-                      United States
+                     Gurugram (122018)
                     </p>
                   </div>
                 </div>
@@ -205,11 +205,11 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Phone Number</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+1234567890" className="hover:text-blue-600">
-                        +1 (234) 567-890
+                      <a href="tel:+918826211177" className="hover:text-blue-600">
+                        +91 8826211177
                       </a>
                     </p>
-                    <p className="text-sm text-gray-500 mt-1">Monday - Friday, 9:00 AM - 6:00 PM EST</p>
+                    <p className="text-sm text-gray-500 mt-1">Monday - Saturday, 10:00 AM - 07:00 PM IST</p>
                   </div>
                 </div>
               </Card>
@@ -223,7 +223,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-lg mb-2">Email Address</h3>
                     <p className="text-gray-600">
                       <a href="mailto:info@company.com" className="hover:text-blue-600">
-                        info@company.com
+                       Jrbtechswole@gmail.com 
                       </a>
                     </p>
                     <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
@@ -239,8 +239,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Business Hours</h3>
                     <div className="text-gray-600 space-y-1">
-                      <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                      <p>Saturday: 10:00 AM - 4:00 PM</p>
+                      <p>Monday - Saturday: 10:00 AM - 07:00 PM</p>
+                     
                       <p>Sunday: Closed</p>
                     </div>
                   </div>

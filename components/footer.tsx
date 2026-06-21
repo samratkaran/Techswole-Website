@@ -29,10 +29,7 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-black">
-                <Github className="h-5 w-5" />
-                <span className="sr-only">GitHub</span>
-              </Link>
+           
             </div>
           </div>
           <div>
@@ -98,24 +95,24 @@ export function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-semibold">Contact</h3>
             <address className="not-italic">
-              <p className="mb-2 text-gray-600">123 Software Street</p>
-              <p className="mb-2 text-gray-600">Tech City, TC 12345</p>
-              <p className="mb-2 text-gray-600">United States</p>
+              <p className="mb-2 text-gray-600">Unit 151, JMD Megapolis, </p>
+              <p className="mb-2 text-gray-600">Sector 48, Gurugram (122018)</p>
+             
               <p className="mb-2 text-gray-600">
-                <a href="tel:+1234567890" className="hover:underline">
-                  +1 (234) 567-890
+                <a href="tel:+918826211177" className="hover:underline">
+                  +91 8826211177
                 </a>
               </p>
               <p className="text-gray-600">
                 <a href="mailto:info@company.com" className="hover:underline">
-                  info@company.com
+                  Jrbtechswole@gmail.com
                 </a>
               </p>
             </address>
           </div>
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8 text-center">
-          <p className="text-gray-600">&copy; {new Date().getFullYear()} Software Company. All rights reserved.</p>
+          <p className="text-gray-600">&copy; {new Date().getFullYear()} Techswole. All rights reserved.</p>
         </div>
       </div>
     </footer>
