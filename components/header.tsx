@@ -274,7 +274,7 @@ export function Header() {
           <div>
             <span>Email: </span>
             <a href="mailto:info@company.com" className="hover:underline">
-              info@
+              Jrbtechswole@gmail.com
             </a>
           </div>
         </div>

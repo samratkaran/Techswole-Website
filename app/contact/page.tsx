@@ -189,9 +189,9 @@ export default function ContactPage() {
                     <p className="text-gray-600">
                       Unit - 151, First Floor, Tower A
                       <br />
-                     JMD Megapolis, Sector 48
+                      JMD Megapolis, Sector 48
                       <br />
-                     Gurugram (122018)
+                      Gurugram (122018)
                     </p>
                   </div>
                 </div>
@@ -223,7 +223,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-lg mb-2">Email Address</h3>
                     <p className="text-gray-600">
                       <a href="mailto:info@company.com" className="hover:text-blue-600">
-                       Jrbtechswole@gmail.com 
+                        Jrbtechswole@gmail.com 
                       </a>
                     </p>
                     <p className="text-sm text-gray-500 mt-1">We'll respond within 24 hours</p>
@@ -240,7 +240,6 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-lg mb-2">Business Hours</h3>
                     <div className="text-gray-600 space-y-1">
                       <p>Monday - Saturday: 10:00 AM - 07:00 PM</p>
-                     
                       <p>Sunday: Closed</p>
                     </div>
                   </div>
