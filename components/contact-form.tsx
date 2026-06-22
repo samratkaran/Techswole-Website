@@ -27,37 +27,42 @@ export function ContactForm({ onSuccess, className = "" }: ContactFormProps) {
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    setSubmitError("")
-// this is new comment added to just push code
-//this is new comment added to just push code 19th june 2026
-    try {
-      // In a real implementation, you would send the form data to your server
-      // For now, we'll simulate a successful submission after a delay
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+  setIsSubmitting(true)
+  setSubmitError("")
 
-      console.log("Form submitted:", formData)
-      setSubmitSuccess(true)
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
-      })
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
 
-      if (onSuccess) {
-        onSuccess()
-      }
-    } catch (error) {
-      console.error("Error submitting form:", error)
-      setSubmitError("There was an error submitting the form. Please try again.")
-    } finally {
-      setIsSubmitting(false)
+    const data = await response.json()
+
+    if (!data.success) {
+      throw new Error("Failed")
     }
+
+    setSubmitSuccess(true)
+
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
+    })
+  } catch (error) {
+    console.log(error)
+    setSubmitError("Failed to send")
+  } finally {
+    setIsSubmitting(false)
   }
+}
 
   return (
     <form onSubmit={handleSubmit} className={`space-y-6 ${className}`}>

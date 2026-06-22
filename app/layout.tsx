@@ -11,7 +11,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Techswole - Innovative Software Solutions",
   description: "Modern Tech solutions for businesses",
-    generator: 'v0.app'
+   
+     icons: {
+    icon: "/favicon.png",
+     }
 }
 
 export default function RootLayout({

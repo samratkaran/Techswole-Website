@@ -27,11 +27,41 @@ export default function ContactPage() {
     }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log("Form submitted:", formData)
-    // Handle form submission here
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+
+      headers: {
+        "Content-Type": "application/json",
+      },
+
+      body: JSON.stringify(formData),
+    })
+
+    const data = await response.json()
+
+    if (data.success) {
+      alert("Message sent successfully!")
+
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        company: "",
+        message: "",
+      })
+    } else {
+      alert("Failed to send message")
+    }
+  } catch (error) {
+    console.log(error)
+    alert("Something went wrong")
   }
+}
 
   return (
     <div className="min-h-screen bg-gray-50">

@@ -1,3 +1,5 @@
+
+
 export const servicesData = {
   title: "Our Services",
   subtitle: "Comprehensive solutions for your business needs",
@@ -16,7 +18,7 @@ export const servicesData = {
       title: "Web Development",
       description: "Custom web applications built with the latest technologies.",
       icon: "Code",
-      image: "/placeholder.svg?height=400&width=600",
+      image: '@assets/services/webdev.png',
       content: (
         <>
           <p className="mb-4">
