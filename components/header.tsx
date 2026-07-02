@@ -267,7 +267,7 @@ export function Header() {
         <div className="container mx-auto flex items-center justify-end px-4 text-sm text-gray-600">
           <div className="mr-6">
             <span>Phone: </span>
-            <a href="tel:+1234567890" className="hover:underline">
+            <a href="tel:8826211177" className="hover:underline">
               +91 8826211177
             </a>
           </div>

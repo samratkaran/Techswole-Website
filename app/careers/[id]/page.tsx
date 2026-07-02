@@ -75,16 +75,57 @@ export default function JobApplicationPage() {
     setUploadedFile(null)
   }
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+  setIsSubmitting(true)
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000))
+  try {
+    const sendData = new FormData()
 
-    alert("Application submitted successfully! We'll get back to you soon.")
+    sendData.append("firstName", formData.firstName)
+    sendData.append("surname", formData.surname)
+    sendData.append("email", formData.email)
+    sendData.append("mobile", formData.mobile)
+    sendData.append("comment", formData.comment)
+
+    // job title from current page
+    sendData.append("jobTitle", position.title)
+
+    // resume file
+    if (uploadedFile) {
+      sendData.append("resume", uploadedFile)
+    }
+
+    const response = await fetch("/api/career", {
+      method: "POST",
+      body: sendData,
+    })
+
+    const data = await response.json()
+
+    if (data.success) {
+      alert("Application submitted successfully")
+
+      setFormData({
+        firstName: "",
+        surname: "",
+        email: "",
+        mobile: "",
+        comment: "",
+        agreeToTerms: false,
+      })
+
+      setUploadedFile(null)
+    } else {
+      alert("Failed to submit application")
+    }
+  } catch (error) {
+    console.log(error)
+    alert("Something went wrong")
+  } finally {
     setIsSubmitting(false)
   }
+}
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
