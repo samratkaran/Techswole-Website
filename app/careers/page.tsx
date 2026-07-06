@@ -1,13 +1,23 @@
+'use client'
+
 import Link from "next/link"
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { MapPin, Clock, DollarSign, Users, Calendar, Star } from "lucide-react"
 import { careersData } from "@/data/careers-data"
+import CarrerSubForm from "@/components/ui/carrer-sub-form"
+
+
+
+
+
 
 export default function CareersPage() {
   const featuredPositions = careersData.positions.filter((position) => position.featured)
   const allPositions = careersData.positions
+  const [open, setOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white">
@@ -206,9 +216,35 @@ export default function CareersPage() {
           <p className="text-xl mb-8">
             We're always looking for talented individuals. Send us your resume and tell us how you'd like to contribute.
           </p>
-          <Button size="lg" variant="secondary" asChild>
-            <Link href="/careers/general-application">Submit General Application</Link>
-          </Button>
+    <Button
+  size="lg"
+  variant="secondary"
+  onClick={() => setOpen(true)}
+>
+  Submit General Application
+</Button>
+
+{open && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
+    <div className="relative w-[95%] max-w-3xl max-h-[90vh] overflow-y-auto rounded-xl bg-white p-6 shadow-2xl">
+
+      {/* Close Button */}
+      <button
+        onClick={() => setOpen(false)}
+        className="absolute right-4 top-4 text-2xl font-bold hover:text-red-500"
+      >
+        ✕
+      </button>
+
+      <h2 className="mb-6 text-2xl font-bold">
+        General Application
+      </h2>
+
+    <CarrerSubForm/>
+
+    </div>
+  </div>
+)}
         </div>
       </section>
     </div>
