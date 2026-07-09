@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import { MapPin, Clock, DollarSign, Users, Calendar, Star } from "lucide-react"
 import { careersData } from "@/data/careers-data"
 import CarrerSubForm from "@/components/ui/carrer-sub-form"
+import { GOOGLE_FONT_PROVIDER } from "next/dist/shared/lib/constants"
 
 
 
@@ -231,7 +232,7 @@ export default function CareersPage() {
       {/* Close Button */}
       <button
         onClick={() => setOpen(false)}
-        className="absolute right-4 top-4 text-2xl font-bold hover:text-red-500"
+        className="absolute right-4 top-4 text-2xl font-bold  text-black hover:text-red-500"
       >
         ✕
       </button>
@@ -241,6 +242,7 @@ export default function CareersPage() {
       </h2>
 
     <CarrerSubForm/>
+   
 
     </div>
   </div>
