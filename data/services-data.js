@@ -18,7 +18,7 @@ export const servicesData = {
       title: "Web Development",
       description: "Custom web applications built with the latest technologies.",
       icon: "Code",
-      image: '@assets/services/webdev.png',
+      image: "assets/service/webdev.png",
       content: (
         <>
           <p className="mb-4">

@@ -3,7 +3,7 @@ export const services = [
     id: "web-development",
     title: "Web Development",
     description: "Custom web applications built with the latest technologies.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/service/webdev.png",
     tags: ["React", "Next.js", "Node.js", "TypeScript"],
     content: {
       overview:
@@ -43,7 +43,7 @@ export const services = [
     id: "mobile-development",
     title: "Mobile Development",
     description: "Native and cross-platform mobile applications for iOS and Android.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/service/appdevelopment.png",
     tags: ["React Native", "Flutter", "Swift", "Kotlin"],
     content: {
       overview:
@@ -55,7 +55,7 @@ export const services = [
     id: "cloud-solutions",
     title: "Cloud Solutions",
     description: "Scalable cloud infrastructure and deployment services.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/service/cloud.png",
     tags: ["AWS", "Google Cloud", "Azure", "Docker"],
     content: {
       overview:
@@ -67,7 +67,7 @@ export const services = [
     id: "devops",
     title: "DevOps",
     description: "CI/CD pipelines, infrastructure automation, and deployment solutions.",
-    image: "/placeholder.svg?height=400&width=600",
+   image: "/assets/service/devops.png",
     tags: ["Docker", "Kubernetes", "Jenkins", "Terraform"],
     content: {
       overview:
@@ -79,7 +79,7 @@ export const services = [
     id: "consulting",
     title: "Consulting",
     description: "Strategic guidance for technology and digital transformation.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/service/consulting.png",
     tags: ["Strategy", "Architecture", "Optimization", "Best Practices"],
     content: {
       overview:
@@ -91,7 +91,7 @@ export const services = [
     id: "graphic-design",
     title: "Graphic Design",
     description: "Creative visual design solutions for your brand identity and marketing materials.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/service/graphic.png",
     tags: ["Photoshop", "Illustrator", "Branding", "UI Design"],
     content: {
       overview:
@@ -132,7 +132,7 @@ export const services = [
     id: "video-editing",
     title: "Video Editing",
     description: "Professional video production and editing services for your content needs.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/service/video.png",
     tags: ["After Effects", "DaVinci Resolve", "Premiere Pro", "Animation"],
     content: {
       overview:
@@ -173,7 +173,7 @@ export const services = [
     id: "social-media-marketing",
     title: "Social Media Marketing",
     description: "Strategic social media management and marketing campaigns to grow your online presence.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/service/marketing.png",
     tags: ["Facebook", "Instagram", "Twitter", "LinkedIn", "Content Strategy"],
     content: {
       overview:
@@ -214,7 +214,7 @@ export const services = [
     id: "seo",
     title: "SEO (Search Engine Optimization)",
     description: "Comprehensive SEO services to improve your website's visibility and organic traffic.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/service/Seo.png",
     tags: ["On-Page SEO", "Off-Page SEO", "Technical SEO", "Keywords"],
     content: {
       overview:

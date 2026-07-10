@@ -4,6 +4,7 @@ import Link from "next/link"
 import { motion } from "framer-motion"
 import { services } from "@/data/services"
 import { Code, Smartphone, Cloud, GitBranch, Palette, ShoppingCart } from "lucide-react"
+import Image from "next/image";
 
 // Map of icon names to components
 const iconMap = {
@@ -28,7 +29,7 @@ export function ServicesSection() {
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => {
-            const IconComponent = iconMap[service.icon]
+            const IconComponent = iconMap[service.icon] || null
 
             return (
               <Link href={`/services/${service.id}`} key={service.id}>
@@ -37,9 +38,19 @@ export function ServicesSection() {
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gray-800">
-                    {IconComponent && <IconComponent className="h-6 w-6" />}
-                  </div>
+                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full">
+  {service.image ? (
+    <Image
+      src={service.image}
+      alt={service.title}
+      width={65}
+      height={65}
+      className="object-contain"
+    />
+  ) : (
+    IconComponent && <IconComponent className="h-6 w-6" />
+  )}
+</div>
                   <h3 className="mb-3 text-xl font-semibold">{service.title}</h3>
                   <p className="text-gray-300">{service.description}</p>
                 </motion.div>

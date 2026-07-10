@@ -1,6 +1,8 @@
 "use client"
 
 import { Header } from "@/components/header"
+import Image from "next/image";
+import logotech from "@/public/logotech.png"
 import { WavyBackground } from "@/components/ui/wavy-background";
 import { OverviewSection } from "@/components/overview-section"
 import { ServicesSection } from "@/components/services-section"
@@ -62,12 +64,13 @@ export function MainContent() {
             <div className="w-full lg:w-1/2">
               <h2 className="mb-6 text-4xl font-bold">About Our Company</h2>
               <p className="mb-4 text-gray-600">
-                Founded in 2010, our company has been at the forefront of software innovation for over a decade. We've
-                helped hundreds of businesses transform their operations through custom software solutions.
+               Founded in 2017, our company has been dedicated to delivering innovative software solutions that empower businesses to grow and succeed in the digital era. Over the years, we have partnered with clients across various industries, helping them streamline operations and achieve their business goals through technology.
+
+
+
               </p>
               <p className="mb-6 text-gray-600">
-                Our team of experienced developers, designers, and project managers work together to deliver exceptional
-                results that exceed our clients' expectations.
+                Our team of skilled developers, designers, and strategists collaborates to build high-quality, scalable, and user-centric solutions. With a strong focus on innovation, reliability, and client satisfaction, we strive to create digital experiences that drive long-term success.
               </p>
               <button
                 onClick={openModal}
@@ -77,12 +80,17 @@ export function MainContent() {
               </button>
             </div>
             <div className="w-full lg:w-1/2">
-              <div className="aspect-video overflow-hidden rounded-lg bg-gray-200">
-                <div className="flex h-full items-center justify-center">
-                  <span className="text-gray-400">Company Image</span>
-                </div>
+            <div className="aspect-square overflow-hidden ">
+              <div className="flex h-full items-center justify-center ">
+     <Image
+      src={logotech}
+      alt="Hero image"
+      width={1200}
+      height={600}
+    />
               </div>
             </div>
+          </div>
           </div>
         </div>
       </section>

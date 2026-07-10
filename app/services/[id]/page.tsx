@@ -54,8 +54,8 @@ export default function ServicePage({ params }: { params: { id: string } }) {
             <Image
               src={service.image || "/placeholder.svg"}
               alt={service.title}
-              width={1200}
-              height={600}
+              width={800}
+              height={300}
               className="w-full object-cover"
             />
           </div>

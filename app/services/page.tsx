@@ -41,8 +41,8 @@ export default function ServicesPage() {
             <Image
               src={servicesData.heroImage || "/placeholder.svg"}
               alt={servicesData.title}
-              width={1200}
-              height={600}
+              width={100}
+              height={100}
               className="w-full object-cover"
             />
           </div>
