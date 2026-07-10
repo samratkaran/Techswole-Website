@@ -1,19 +1,21 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image";
+import over from "@/public/over.png"
 import { useContactModal } from "@/context/contact-modal-context"
 
 export function OverviewSection() {
   const { openModal } = useContactModal()
 
   return (
-    <section className="bg-white py-32 ">
+    <section className="bg-white py-20 ">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center justify-between gap-12 lg:flex-row">
+        <div className="flex flex-col items-center justify-between gap-4 lg:flex-row">
           <div className="w-full lg:w-1/2">
             <h2 className="mb-6 text-4xl font-bold">
-              <span className="block mb-2 pt-24">Transforming Ideas</span>
-              <span className="block">Into</span>
+              <span className="block mb-2 pt-24">Transforming Ideas Into</span>
+             
               <span className="block mt-2">
                 {/* Animated text with hover effect */}
                 <span className="inline-block">
@@ -62,12 +64,14 @@ export function OverviewSection() {
             </button>
           </div>
           <div className="w-full lg:w-1/2">
-            <div className="aspect-square overflow-hidden rounded-lg bg-gray-100 shadow-lg">
-              <div className="flex h-full items-center justify-center p-8">
-                <span className="text-center text-gray-400">
-                  <p className="mb-2 text-lg font-medium">Your Image Here</p>
-                  <p className="text-sm">Add your overview image in the future</p>
-                </span>
+            <div className="aspect-square overflow-hidden ">
+              <div className="flex h-full items-center justify-center ">
+     <Image
+      src={over}
+      alt="Hero image"
+      width={1200}
+      height={600}
+    />
               </div>
             </div>
           </div>
