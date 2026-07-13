@@ -3,31 +3,19 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
+import CEO from "@/public/ceo.jpg"
 import { motion } from "framer-motion"
 
 // Team member data
 const teamMembers = [
   {
     id: 1,
-    name: "Alex Johnson",
+    name: "Jaskanwarjeet Singh Bakshi",
     role: "Founder & CEO",
-    image: "/placeholder.svg?height=600&width=400",
-    bio: "With over 15 years of experience in software development and business leadership, Alex founded TechSwole with a vision to create innovative solutions that transform businesses.",
+    image: CEO,
+    bio: "With over 9+ years of experience in software development and business leadership, Jaskanwarjeet Singh Bakshi founded TechSwole with a vision to create innovative solutions that transform businesses.",
   },
-  {
-    id: 2,
-    name: "Samantha Chen",
-    role: "CTO",
-    image: "/placeholder.svg?height=600&width=400",
-    bio: "Samantha leads our technical strategy and oversees all development teams. Her expertise in cloud architecture and AI has been instrumental in our most groundbreaking projects.",
-  },
-  {
-    id: 3,
-    name: "Michael Rodriguez",
-    role: "Design Director",
-    image: "/placeholder.svg?height=600&width=400",
-    bio: "Michael brings a perfect blend of creativity and user-centered thinking to every project. His award-winning designs have helped our clients achieve exceptional results.",
-  },
+
 ]
 
 export function TeamSection() {
@@ -37,18 +25,17 @@ export function TeamSection() {
     <section className="bg-black py-20 text-white">
       <div className="container mx-auto px-4">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 text-4xl font-bold">The Team Behind TechSwole</h2>
+          <h2 className="mb-4 text-4xl font-bold">The Vision Behind TechSwole</h2>
           <p className="mx-auto max-w-2xl text-gray-300">
-            Our success is driven by our exceptional team of experts who bring passion, creativity, and technical
-            excellence to every project.
+        TechSwole is led by its founder and CEO, whose passion for innovation, technology, and excellence drives every project and helps businesses achieve their digital goals.
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="flex justify-center items-center">
           {teamMembers.map((member) => (
             <motion.div
               key={member.id}
-              className="group relative h-[500px] overflow-hidden rounded-lg"
+              className="group relative h-[500px] w-[500px] overflow-hidden rounded-lg"
               onHoverStart={() => setHoveredMember(member.id)}
               onHoverEnd={() => setHoveredMember(null)}
               whileHover={{ scale: 1.02 }}

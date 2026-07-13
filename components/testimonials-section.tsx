@@ -8,41 +8,41 @@ import { useContactModal } from "@/context/contact-modal-context"
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "CEO, TechStart Inc.",
+    name: "Arjun Mehta",
+    role: "Managing Director, Nexus Realty India",
     content:
-      "Working with this team has been transformative for our business. Their expertise in cloud solutions helped us scale efficiently and reduce costs by 40%.",
+      "Their team delivered a modern and intuitive digital experience that significantly improved our online presence. Their attention to detail and commitment to quality made the entire process smooth and efficient.",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "CTO, InnovateCorp",
+    name: "Michael Anderson",
+    role: "CEO, Vertex Solutions USA",
     content:
-      "The mobile app they developed exceeded our expectations. The user experience is fantastic, and we've seen a 300% increase in user engagement.",
+      "We were impressed by their professionalism and technical expertise. The solutions they implemented streamlined our operations and helped us build a stronger connection with our customers.",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
-    role: "Founder, DataDriven Solutions",
+    name: "Ahmed Al Mansoori",
+    role: "Operations Director, Emirates Holdings UAE",
     content:
-      "Their consulting services provided invaluable insights that shaped our technology strategy. We couldn't have achieved our goals without their guidance.",
+      "Working with this team was an outstanding experience. They understood our requirements from day one and delivered results that exceeded our expectations in every aspect.",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
   {
     id: 4,
-    name: "David Thompson",
-    role: "VP Engineering, ScaleUp Ltd",
+    name: "Fatima Al Nahyan",
+    role: "General Manager, Gulf Horizon Group UAE",
     content:
-      "The DevOps implementation was seamless. Our deployment time reduced from hours to minutes, and system reliability improved dramatically.",
+      "Their innovative approach and dedication to excellence helped us modernize our digital infrastructure. We highly appreciate their professionalism and timely delivery.",
     rating: 5,
     image: "/placeholder.svg?height=80&width=80",
   },
-]
+];
 
 export function TestimonialsSection() {
   const [currentIndex, setCurrentIndex] = useState(0)

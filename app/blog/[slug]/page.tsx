@@ -1,5 +1,5 @@
 import type React from "react"
-import Image from "next/image"
+
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { blogsData } from "@/data/blogs"
@@ -75,13 +75,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             {/* Article Meta */}
             <div className="flex flex-wrap items-center gap-6 text-sm opacity-70">
               <div className="flex items-center space-x-2">
-                <Image
-                  src={blog.authorImage || "/placeholder.svg"}
-                  alt={blog.author}
-                  width={40}
-                  height={40}
-                  className="h-10 w-10 rounded-full"
-                />
+            
                 <div>
                   <p className="font-medium" style={{ color: blog.style.textColor }}>
                     {blog.author}
@@ -114,15 +108,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           </header>
 
           {/* Featured Image */}
-          <div className="mb-12 overflow-hidden rounded-2xl shadow-xl">
-            <Image
-              src={blog.image || "/placeholder.svg"}
-              alt={blog.title}
-              width={1200}
-              height={600}
-              className="w-full object-cover"
-            />
-          </div>
+       
 
           {/* Article Content */}
           <div className="mx-auto max-w-4xl">
@@ -169,13 +155,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
                   <div className="rounded-xl bg-opacity-10 p-6" style={{ backgroundColor: blog.style.accentColor }}>
                     <h3 className="mb-4 font-semibold">About the Author</h3>
                     <div className="flex items-center space-x-3 mb-3">
-                      <Image
-                        src={blog.authorImage || "/placeholder.svg"}
-                        alt={blog.author}
-                        width={48}
-                        height={48}
-                        className="h-12 w-12 rounded-full"
-                      />
+                    
                       <div>
                         <p className="font-medium">{blog.author}</p>
                       </div>

@@ -31,7 +31,6 @@ export const blogsEnhanced = [
         <p>The future of web development is bright, with new technologies and methodologies emerging to help developers create better, faster, and more efficient applications. Staying updated with these trends is crucial for any developer looking to remain competitive in the field.</p>
       </div>
     `,
-    image: "/placeholder.svg?height=400&width=800",
     author: "Alex Johnson",
     authorImage: "/placeholder.svg?height=100&width=100",
     authorBio: "Alex is the founder and CEO of our company with over 15 years of experience in software development.",

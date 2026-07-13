@@ -16,13 +16,10 @@ const partners = [
   { id: 9, name: "Adobe" },
   { id: 10, name: "Salesforce" },
   { id: 11, name: "SAP" },
-  { id: 12, name: "Dell" },
-  { id: 13, name: "HP" },
   { id: 14, name: "Nvidia" },
   { id: 15, name: "Samsung" },
   { id: 16, name: "Sony" },
   { id: 17, name: "LG" },
-  { id: 18, name: "Lenovo" },
   { id: 19, name: "Huawei" },
   { id: 20, name: "Qualcomm" },
 ]
