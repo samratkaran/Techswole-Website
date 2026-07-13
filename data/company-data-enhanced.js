@@ -1,9 +1,11 @@
+import logotech from "/public/logotech.png"
+
 export const companyDataEnhanced = {
   title: "Our Company",
-  subtitle: "Building innovative solutions since 2010",
+  subtitle: "Building innovative solutions since 2017",
   description:
     "We are a leading software development company specializing in custom solutions for businesses of all sizes. Our team of experts combines technical excellence with creative thinking to deliver exceptional results.",
-  heroImage: "/placeholder.svg?height=600&width=1200",
+  heroImage: '/public/logotech.png',
   contactCta: {
     title: "Want to learn more about our company?",
     description: "Contact us today to schedule a meeting with our team.",
@@ -29,17 +31,25 @@ export const companyDataEnhanced = {
       },
       content: {
         overview:
-          "Founded in 2010, our company has been at the forefront of software innovation for over a decade. We've helped hundreds of businesses transform their operations through custom software solutions.",
+          "Founded in 2017, our company has been at the forefront of software innovation for over a decade. We've helped hundreds of businesses transform their operations through custom software solutions.",
         sections: [
           {
             type: "hero",
             title: "Our Story",
             content: `
               <div class="prose max-w-none">
-                <p class="mb-6 text-lg">Our journey began in 2010 when a group of passionate developers and designers came together with a shared vision: to create software that makes a difference. What started as a small team working out of a garage has grown into a global company with offices in multiple countries.</p>
-                <p class="mb-6">Over the years, we've worked with clients ranging from startups to Fortune 500 companies, helping them solve complex problems and achieve their business goals through innovative technology solutions.</p>
-                <p class="text-lg font-medium">Today, we continue to push the boundaries of what's possible, staying at the forefront of technology trends and delivering exceptional results for our clients.</p>
-              </div>
+  <p class="mb-6 text-lg">
+    TechSwole was founded with a vision to help businesses transform their ideas into powerful digital solutions. Starting as an independent technology venture, the company has steadily grown by delivering high-quality web development, cloud, and software services to clients across different industries.
+  </p>
+
+  <p class="mb-6">
+    Over the years, TechSwole has partnered with startups, growing businesses, and established organizations, providing scalable applications, modern web experiences, and innovative technology solutions tailored to their needs. Our focus has always been on combining technical expertise with a deep understanding of business goals.
+  </p>
+
+  <p class="text-lg font-medium">
+    Today, TechSwole continues to embrace emerging technologies and industry best practices, helping clients build, optimize, and scale their digital presence with confidence.
+  </p>
+</div>
             `,
           },
           {

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import logotech from "@/public/logotech.png"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { companyData } from "@/data/company-data"
@@ -20,7 +21,7 @@ export default function CompanyPage() {
 
           <div className="mb-16 overflow-hidden rounded-lg">
             <Image
-              src={companyData.heroImage || "/placeholder.svg"}
+              src={companyData.heroImage || logotech}
               alt={companyData.title}
               width={1200}
               height={600}
