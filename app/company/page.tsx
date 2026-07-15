@@ -19,13 +19,13 @@ export default function CompanyPage() {
             <p className="mx-auto max-w-3xl text-gray-600">{companyData.description}</p>
           </div>
 
-          <div className="mb-16 overflow-hidden rounded-lg">
+          <div className="mb-16 flex justify-center items-center overflow-hidden rounded-lg">
             <Image
-              src={companyData.heroImage || logotech}
+              src={logotech}
               alt={companyData.title}
-              width={1200}
+              width={1000}
               height={600}
-              className="w-full object-cover"
+              className=" object-cover"
             />
           </div>
 

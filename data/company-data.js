@@ -1,6 +1,6 @@
 export const companyData = {
   title: "Our Company",
-  subtitle: "Building innovative solutions since 2010",
+  subtitle: "Building innovative solutions since 2017",
   description:
     "We are a leading software development company specializing in custom solutions for businesses of all sizes. Our team of experts combines technical excellence with creative thinking to deliver exceptional results.",
   heroImage: "/placeholder.svg?height=600&width=1200",

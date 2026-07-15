@@ -5,7 +5,7 @@ export const companyDataEnhanced = {
   subtitle: "Building innovative solutions since 2017",
   description:
     "We are a leading software development company specializing in custom solutions for businesses of all sizes. Our team of experts combines technical excellence with creative thinking to deliver exceptional results.",
-  heroImage: '/public/logotech.png',
+  heroImage: 'assets/logotech.png',
   contactCta: {
     title: "Want to learn more about our company?",
     description: "Contact us today to schedule a meeting with our team.",
@@ -18,7 +18,7 @@ export const companyDataEnhanced = {
       title: "About Us",
       description: "Learn about our company history and mission.",
       icon: "Building",
-      image: "/placeholder.svg?height=600&width=1200",
+      image: "/logotech.png",
       tags: ["History", "Mission", "Values", "Vision"],
       style: {
         theme: "modern",
