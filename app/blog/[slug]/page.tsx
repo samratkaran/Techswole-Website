@@ -76,12 +76,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             <div className="flex flex-wrap items-center gap-6 text-sm opacity-70">
               <div className="flex items-center space-x-2">
             
-                <div>
-                  <p className="font-medium" style={{ color: blog.style.textColor }}>
-                    {blog.author}
-                  </p>
-                  <p className="text-xs opacity-60">{blog.authorBio}</p>
-                </div>
+             
               </div>
               <div className="flex items-center space-x-1">
                 <Calendar className="h-4 w-4" />
@@ -129,39 +124,14 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
                 />
 
                 {/* Share Section */}
-                <div className="mt-12 border-t border-opacity-20 pt-8" style={{ borderColor: blog.style.textColor }}>
-                  <h3 className="mb-4 text-lg font-semibold">Share this article</h3>
-                  <div className="flex space-x-4">
-                    <button className="flex items-center space-x-2 rounded-lg bg-blue-500 px-4 py-2 text-white transition-colors hover:bg-blue-600">
-                      <Twitter className="h-4 w-4" />
-                      <span>Twitter</span>
-                    </button>
-                    <button className="flex items-center space-x-2 rounded-lg bg-blue-700 px-4 py-2 text-white transition-colors hover:bg-blue-800">
-                      <Facebook className="h-4 w-4" />
-                      <span>Facebook</span>
-                    </button>
-                    <button className="flex items-center space-x-2 rounded-lg bg-blue-600 px-4 py-2 text-white transition-colors hover:bg-blue-700">
-                      <Linkedin className="h-4 w-4" />
-                      <span>LinkedIn</span>
-                    </button>
-                  </div>
-                </div>
+               
               </div>
 
               {/* Sidebar */}
               <div className="lg:col-span-1">
                 <div className="sticky top-32 space-y-8">
                   {/* Author Info */}
-                  <div className="rounded-xl bg-opacity-10 p-6" style={{ backgroundColor: blog.style.accentColor }}>
-                    <h3 className="mb-4 font-semibold">About the Author</h3>
-                    <div className="flex items-center space-x-3 mb-3">
-                    
-                      <div>
-                        <p className="font-medium">{blog.author}</p>
-                      </div>
-                    </div>
-                    <p className="text-sm opacity-80">{blog.authorBio}</p>
-                  </div>
+                 
 
                   {/* Related Articles */}
                   {relatedBlogs.length > 0 && (

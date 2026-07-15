@@ -77,16 +77,7 @@ export default function BlogPage() {
                       </h3>
                       <p className="mb-4 text-gray-600 line-clamp-2">{blog.excerpt}</p>
                       <div className="flex items-center justify-between">
-                        <div className="flex items-center space-x-2">
-                          <Image
-                            src={blog.authorImage || "/placeholder.svg"}
-                            alt={blog.author}
-                            width={32}
-                            height={32}
-                            className="h-8 w-8 rounded-full"
-                          />
-                          <span className="text-sm font-medium">{blog.author}</span>
-                        </div>
+                        
                         <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700">
                           {blog.category}
                         </span>
@@ -133,16 +124,6 @@ export default function BlogPage() {
                     </h3>
                     <p className="mb-4 text-gray-600 text-sm line-clamp-3">{blog.excerpt}</p>
                     <div className="flex items-center justify-between">
-                      <div className="flex items-center space-x-2">
-                        <Image
-                          src={blog.authorImage || "/placeholder.svg"}
-                          alt={blog.author}
-                          width={24}
-                          height={24}
-                          className="h-6 w-6 rounded-full"
-                        />
-                        <span className="text-sm font-medium">{blog.author}</span>
-                      </div>
                       <span className="rounded-full bg-gray-100 px-2 py-1 text-xs font-medium text-gray-700">
                         {blog.category}
                       </span>

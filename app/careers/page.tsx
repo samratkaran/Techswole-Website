@@ -5,7 +5,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { MapPin, Clock, DollarSign, Users, Calendar, Star } from "lucide-react"
+import { MapPin, Clock, IndianRupee, Users, Calendar, Star } from "lucide-react"
 import { careersData } from "@/data/careers-data"
 import CarrerSubForm from "@/components/ui/carrer-sub-form"
 import { GOOGLE_FONT_PROVIDER } from "next/dist/shared/lib/constants"
@@ -126,7 +126,7 @@ export default function CareersPage() {
                         {position.type}
                       </div>
                       <div className="flex items-center gap-1">
-                        <DollarSign className="w-4 h-4" />
+                        <IndianRupee className="w-4 h-4" />
                         {position.salary}
                       </div>
                     </div>
@@ -186,7 +186,7 @@ export default function CareersPage() {
                           {position.type}
                         </div>
                         <div className="flex items-center gap-1">
-                          <DollarSign className="w-4 h-4" />
+                          <IndianRupee className="w-4 h-4" />
                           {position.salary}
                         </div>
                       </div>

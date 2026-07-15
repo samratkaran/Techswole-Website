@@ -1,200 +1,303 @@
 export const newsData = [
-  {
-    id: 1,
-    title: "TechSwole Launches New AI-Powered Analytics Platform",
-    excerpt:
-      "Our latest platform leverages cutting-edge AI to provide unprecedented insights into business performance.",
-    image: "/placeholder.svg?height=400&width=600",
-    date: "May 15, 2023",
-    author: "TechSwole Team",
-    category: "Product Launch",
-    readTime: "3 min read",
-    featured: true,
-    published: true,
-    slug: "ai-powered-analytics-platform-launch",
-    content: `
-      <p>We're excited to announce the launch of our revolutionary AI-powered analytics platform that's set to transform how businesses understand and optimize their performance.</p>
-      
-      <h2>Key Features</h2>
-      <ul>
-        <li>Real-time data processing and analysis</li>
-        <li>Predictive analytics using machine learning</li>
-        <li>Customizable dashboards and reports</li>
-        <li>Integration with popular business tools</li>
-        <li>Advanced data visualization capabilities</li>
-      </ul>
-      
-      <p>This platform represents months of dedicated development and testing, incorporating feedback from our beta users to create a solution that truly meets the needs of modern businesses.</p>
-      
-      <h3>Benefits for Businesses</h3>
-      <p>Our AI-powered analytics platform offers several key advantages:</p>
-      <ol>
-        <li><strong>Faster Decision Making:</strong> Get insights in real-time instead of waiting for monthly reports</li>
-        <li><strong>Predictive Insights:</strong> Anticipate trends and issues before they impact your business</li>
-        <li><strong>Cost Reduction:</strong> Identify inefficiencies and optimize resource allocation</li>
-        <li><strong>Competitive Advantage:</strong> Stay ahead with data-driven strategies</li>
-      </ol>
-      
-      <blockquote>
-        <p>"This platform will revolutionize how businesses make data-driven decisions. The AI capabilities are truly game-changing."</p>
-        <cite>- CEO, TechSwole</cite>
-      </blockquote>
-      
-      <h4>Technical Specifications</h4>
-      <table>
-        <thead>
-          <tr>
-            <th>Feature</th>
-            <th>Specification</th>
-            <th>Benefit</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Processing Speed</td>
-            <td>Real-time</td>
-            <td>Instant insights</td>
-          </tr>
-          <tr>
-            <td>Data Sources</td>
-            <td>50+ integrations</td>
-            <td>Comprehensive analysis</td>
-          </tr>
-          <tr>
-            <td>AI Models</td>
-            <td>Machine Learning</td>
-            <td>Predictive analytics</td>
-          </tr>
-        </tbody>
-      </table>
-      
-      <p>The platform is now available for enterprise customers, with plans to expand to small and medium businesses in the coming months.</p>
-    `,
-    tags: ["AI", "Analytics", "Product Launch", "Enterprise"],
-    style: {
-      theme: "modern",
-      backgroundColor: "#ffffff",
-      textColor: "#333333",
-      accentColor: "#3b82f6",
-    },
+ {
+  id: 1,
+  title: "OpenAI Unveils GPT-5 With Enhanced Reasoning and Coding Capabilities",
+  excerpt:
+    "OpenAI has officially introduced GPT-5, bringing major improvements in reasoning, multimodal understanding, and software development workflows.",
+  image: "/assets/news/news_id_one.jpeg",
+  date: "July 10, 2026",
+  author: "TechSwole Team",
+  category: "Artificial Intelligence",
+  readTime: "4 min read",
+  featured: true,
+  published: true,
+  slug: "openai-gpt-5-launch",
+  content: `
+    <p>OpenAI has announced GPT-5, its most advanced artificial intelligence model to date. The release introduces significant improvements in reasoning, coding assistance, and multimodal capabilities.</p>
+
+    <h2>Key Improvements</h2>
+    <ul>
+      <li>More accurate code generation and debugging</li>
+      <li>Enhanced reasoning and problem-solving abilities</li>
+      <li>Improved understanding of text and images</li>
+      <li>Better performance for enterprise use cases</li>
+      <li>Faster response times for developers</li>
+    </ul>
+
+    <p>Developers are already integrating GPT-5 into applications ranging from customer support systems to software development tools.</p>
+
+    <h3>Impact on Businesses</h3>
+
+    <ol>
+      <li><strong>Higher Productivity:</strong> Teams can automate repetitive tasks.</li>
+      <li><strong>Smarter Workflows:</strong> AI can assist in planning and analysis.</li>
+      <li><strong>Improved Coding:</strong> Developers receive more accurate suggestions.</li>
+      <li><strong>Better Customer Support:</strong> AI-powered chat systems continue to evolve.</li>
+    </ol>
+
+    <blockquote>
+      <p>"The next generation of AI will fundamentally change how teams build software."</p>
+      <cite>— Industry Analysts</cite>
+    </blockquote>
+
+    <p>Experts expect GPT-5 to accelerate AI adoption across multiple industries over the coming years.</p>
+  `,
+  tags: ["AI", "OpenAI", "GPT-5", "Software"],
+  style: {
+    theme: "modern",
+    backgroundColor: "#ffffff",
+    textColor: "#333333",
+    accentColor: "#FF6B6B",
   },
-  {
-    id: 2,
-    title: "TechSwole Opens New Office in Singapore",
-    excerpt: "Expanding our global presence, we're excited to announce our new Asia-Pacific headquarters in Singapore.",
-    image: "/placeholder.svg?height=400&width=600",
-    date: "April 28, 2023",
-    author: "Sarah Johnson",
-    category: "Company News",
-    readTime: "2 min read",
-    featured: false,
-    published: true,
-    slug: "new-singapore-office-opening",
-    content: `
-      <h1>Welcome to Our Singapore Office</h1>
-      <p>TechSwole is proud to announce the opening of our new Asia-Pacific headquarters in Singapore, marking a significant milestone in our global expansion strategy.</p>
-      
-      <h2>Strategic Location</h2>
-      <p>Singapore was chosen as our regional hub due to its:</p>
-      <ul>
-        <li>Strategic location in Southeast Asia</li>
-        <li>Business-friendly environment</li>
-        <li>Access to top talent</li>
-        <li>Strong technology infrastructure</li>
-        <li>Gateway to emerging markets</li>
-      </ul>
-      
-      <h3>What This Means for Our Clients</h3>
-      <p>The new office will serve as our primary base for:</p>
-      <ol>
-        <li>Client services across the Asia-Pacific region</li>
-        <li>Local talent acquisition and development</li>
-        <li>Regional partnerships and collaborations</li>
-        <li>Market research and expansion opportunities</li>
-      </ol>
-      
-      <div style="background-color: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
-        <h4>Office Details</h4>
-        <p><strong>Address:</strong> Marina Bay Financial Centre, Singapore</p>
-        <p><strong>Size:</strong> 15,000 sq ft</p>
-        <p><strong>Capacity:</strong> 100+ employees</p>
-        <p><strong>Opening Date:</strong> May 1, 2023</p>
-      </div>
-      
-      <p>We're currently hiring for various positions at our Singapore office and look forward to building a strong local team.</p>
-    `,
-    tags: ["Expansion", "Singapore", "Asia-Pacific", "Office Opening"],
-    style: {
-      theme: "corporate",
-      backgroundColor: "#f8fafc",
-      textColor: "#1e293b",
-      accentColor: "#059669",
-    },
+},
+{
+  id: 2,
+  title: "Google Expands Gemini AI Across Workspace Applications",
+  excerpt:
+    "Google is bringing Gemini-powered features to Gmail, Docs, Sheets, and Meet to improve productivity and collaboration.",
+  image: "/assets/news/news_id_two.jpg",
+  date: "July 8, 2026",
+  author: "TechSwole Team",
+  category: "Artificial Intelligence",
+  readTime: "5 min read",
+  featured: false,
+  published: true,
+  slug: "google-gemini-workspace-expansion",
+  content: `
+    <p>Google continues to expand Gemini across its productivity ecosystem, introducing new AI features inside Workspace applications.</p>
+
+    <h2>What's New?</h2>
+
+    <ul>
+      <li>AI-generated email drafts in Gmail</li>
+      <li>Automatic document summaries</li>
+      <li>Smart spreadsheet analysis</li>
+      <li>Meeting notes and action items</li>
+      <li>Enterprise-grade AI tools</li>
+    </ul>
+
+    <h3>Why It Matters</h3>
+
+    <p>Businesses are increasingly relying on AI to automate workflows and improve productivity.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Application</th>
+          <th>Feature</th>
+          <th>Benefit</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Gmail</td>
+          <td>AI Writing</td>
+          <td>Faster communication</td>
+        </tr>
+
+        <tr>
+          <td>Docs</td>
+          <td>Content generation</td>
+          <td>Improved productivity</td>
+        </tr>
+
+        <tr>
+          <td>Sheets</td>
+          <td>Data analysis</td>
+          <td>Better insights</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <blockquote>
+      <p>"AI is becoming a core component of workplace productivity."</p>
+      <cite>— Google Workspace Team</cite>
+    </blockquote>
+
+    <p>Google plans to continue expanding Gemini capabilities throughout the year.</p>
+  `,
+  tags: ["Google", "Gemini", "AI", "Workspace"],
+  style: {
+    theme: "professional",
+    backgroundColor: "#ffffff",
+    textColor: "#333333",
+    accentColor: "#4285F4",
   },
-  {
-    id: 3,
-    title: "TechSwole Recognized as Top Software Developer in 2023",
-    excerpt: "We're honored to be named among the top software development companies by Industry Leaders Magazine.",
-    image: "/placeholder.svg?height=400&width=600",
-    date: "March 12, 2023",
-    author: "Michael Chen",
-    category: "Awards",
-    readTime: "2 min read",
-    featured: true,
-    published: true,
-    slug: "top-software-developer-award-2023",
-    content: `
-      <h1>Industry Recognition: Top Software Developer 2023</h1>
-      <p>We're thrilled to announce that TechSwole has been recognized as one of the top software development companies of 2023 by Industry Leaders Magazine.</p>
-      
-      <h2>Recognition Criteria</h2>
-      <p>The award was based on several key factors:</p>
-      <ul>
-        <li>Client satisfaction scores and testimonials</li>
-        <li>Quality of delivered projects</li>
-        <li>Innovation in technology solutions</li>
-        <li>Team expertise and certifications</li>
-        <li>Industry impact and thought leadership</li>
-      </ul>
-      
-      <blockquote style="border-left: 4px solid #805ad5; padding-left: 20px; margin: 30px 0; font-style: italic;">
-        <p>"TechSwole consistently delivers exceptional software solutions that drive real business value. Their commitment to quality and innovation sets them apart in the industry."</p>
-        <cite style="font-weight: bold;">- Industry Leaders Magazine Editorial Team</cite>
-      </blockquote>
-      
-      <h3>Our Achievement Highlights</h3>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0;">
-        <div style="background: #f7fafc; padding: 20px; border-radius: 8px; text-align: center;">
-          <h4 style="color: #805ad5; margin-bottom: 10px;">Client Satisfaction</h4>
-          <p style="font-size: 24px; font-weight: bold;">98%</p>
-        </div>
-        <div style="background: #f7fafc; padding: 20px; border-radius: 8px; text-align: center;">
-          <h4 style="color: #805ad5; margin-bottom: 10px;">Projects Delivered</h4>
-          <p style="font-size: 24px; font-weight: bold;">250+</p>
-        </div>
-        <div style="background: #f7fafc; padding: 20px; border-radius: 8px; text-align: center;">
-          <h4 style="color: #805ad5; margin-bottom: 10px;">Team Experts</h4>
-          <p style="font-size: 24px; font-weight: bold;">50+</p>
-        </div>
-      </div>
-      
-      <h4>Our Commitment Moving Forward</h4>
-      <p>This recognition reinforces our commitment to:</p>
-      <ol>
-        <li>Delivering high-quality software solutions</li>
-        <li>Staying at the forefront of technology trends</li>
-        <li>Maintaining exceptional client relationships</li>
-        <li>Continuous learning and improvement</li>
-      </ol>
-      
-      <p>We thank our clients, partners, and team members who made this achievement possible.</p>
-    `,
-    tags: ["Awards", "Recognition", "Industry Leaders", "Achievement"],
-    style: {
-      theme: "elegant",
-      backgroundColor: "#fefefe",
-      textColor: "#2d3748",
-      accentColor: "#805ad5",
-    },
+},
+{
+  id: 3,
+  title: "Next.js 16 Introduces Faster Builds and Better Server Components",
+  excerpt:
+    "The latest version of Next.js brings major improvements to Turbopack, routing, and server-side rendering performance.",
+  image: "/assets/news/news_id_three.png",
+  date: "July 5, 2026",
+  author: "TechSwole Team",
+  category: "Web Development",
+  readTime: "6 min read",
+  featured: false,
+  published: true,
+  slug: "nextjs-16-release",
+  content: `
+    <p>Next.js 16 continues to gain popularity among developers thanks to improvements in performance and developer experience.</p>
+
+    <h2>Main Features</h2>
+
+    <ul>
+      <li>Faster Turbopack builds</li>
+      <li>Enhanced server components</li>
+      <li>Improved image optimization</li>
+      <li>Better deployment tools</li>
+      <li>Optimized caching mechanisms</li>
+    </ul>
+
+    <h3>Developer Benefits</h3>
+
+    <ol>
+      <li>Reduced build times.</li>
+      <li>Improved SEO performance.</li>
+      <li>Better scalability.</li>
+      <li>Simplified deployment.</li>
+    </ol>
+
+    <blockquote>
+      <p>"Modern web development continues to move toward full-stack frameworks."</p>
+      <cite>— Frontend Community</cite>
+    </blockquote>
+
+    <p>Companies building scalable applications are rapidly adopting the new features.</p>
+  `,
+  tags: ["Next.js", "React", "Frontend", "Web"],
+  style: {
+    theme: "modern",
+    backgroundColor: "#ffffff",
+    textColor: "#333333",
+    accentColor: "#FF8B7C",
   },
+},
+{
+  id: 4,
+  title: "GitHub Copilot Gets Smarter With New AI Coding Features",
+  excerpt:
+    "GitHub has introduced major updates to Copilot, making code suggestions, debugging, and collaboration more efficient.",
+  image: "/assets/news/news_id_four.webp",
+  date: "July 2, 2026",
+  author: "TechSwole Team",
+  category: "Developer Tools",
+  readTime: "5 min read",
+  featured: false,
+  published: true,
+  slug: "github-copilot-update",
+  content: `
+    <p>GitHub continues to expand Copilot with new AI-powered coding features for developers.</p>
+
+    <h2>Highlights</h2>
+
+    <ul>
+      <li>Smarter code completion</li>
+      <li>Improved debugging suggestions</li>
+      <li>Context-aware recommendations</li>
+      <li>Team collaboration tools</li>
+      <li>Better support for multiple languages</li>
+    </ul>
+
+    <p>Developers are increasingly relying on AI assistants to speed up software development.</p>
+
+    <h3>Industry Impact</h3>
+
+    <ol>
+      <li>Reduced development time.</li>
+      <li>Faster bug fixes.</li>
+      <li>Improved productivity.</li>
+      <li>Better onboarding for junior developers.</li>
+    </ol>
+
+    <blockquote>
+      <p>"AI-assisted development is reshaping software engineering."</p>
+      <cite>— GitHub Community</cite>
+    </blockquote>
+
+    <p>AI-powered development tools are expected to become standard across the industry.</p>
+  `,
+  tags: ["GitHub", "Copilot", "AI", "Programming"],
+  style: {
+    theme: "modern",
+    backgroundColor: "#ffffff",
+    textColor: "#333333",
+    accentColor: "#6e40c9",
+  },
+},
+{
+  id: 5,
+  title: "Microsoft Expands AI Across Windows and Office Ecosystem",
+  excerpt:
+    "Microsoft is integrating AI capabilities into Windows, Office, and its cloud platform to improve productivity.",
+  image: "/assets/news/news_id_five.png",
+  date: "June 30, 2026",
+  author: "TechSwole Team",
+  category: "Software",
+  readTime: "5 min read",
+  featured: false,
+  published: true,
+  slug: "microsoft-ai-expansion",
+  content: `
+    <p>Microsoft continues to invest heavily in artificial intelligence across its software ecosystem.</p>
+
+    <h2>Major Additions</h2>
+
+    <ul>
+      <li>AI-powered Office tools</li>
+      <li>Smarter Windows experiences</li>
+      <li>Cloud automation features</li>
+      <li>Enterprise AI assistants</li>
+      <li>Developer-focused integrations</li>
+    </ul>
+
+    <h3>Benefits for Organizations</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Area</th>
+          <th>Technology</th>
+          <th>Impact</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Office</td>
+          <td>Copilot</td>
+          <td>Improved productivity</td>
+        </tr>
+
+        <tr>
+          <td>Windows</td>
+          <td>AI Features</td>
+          <td>Better user experience</td>
+        </tr>
+
+        <tr>
+          <td>Azure</td>
+          <td>Automation</td>
+          <td>Operational efficiency</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <blockquote>
+      <p>"AI will define the next generation of productivity software."</p>
+      <cite>— Microsoft Leadership</cite>
+    </blockquote>
+
+    <p>Microsoft's AI strategy continues to shape the future of enterprise technology.</p>
+  `,
+  tags: ["Microsoft", "AI", "Cloud", "Software"],
+  style: {
+    theme: "professional",
+    backgroundColor: "#ffffff",
+    textColor: "#333333",
+    accentColor: "#0078D4",
+  },
+},
 ]

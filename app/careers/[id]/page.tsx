@@ -15,7 +15,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 import {
   MapPin,
   Clock,
-  DollarSign,
+  IndianRupee,
   Calendar,
   Star,
   ArrowLeft,
@@ -171,13 +171,10 @@ const handleSubmit = async (e: React.FormEvent) => {
                     {position.type}
                   </div>
                   <div className="flex items-center gap-1">
-                    <DollarSign className="w-4 h-4" />
+                   <IndianRupee className="w-4 h-4" />
                     {position.salary}
                   </div>
-                  <div className="flex items-center gap-1">
-                    <Calendar className="w-4 h-4" />
-                    Deadline: {new Date(position.deadline).toLocaleDateString()}
-                  </div>
+                 
                 </div>
               </CardHeader>
             </Card>
@@ -270,7 +267,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                 </div>
                 <div>
                   <div className="text-sm font-medium text-gray-900">Application Deadline</div>
-                  <div className="text-sm text-gray-600">{new Date(position.deadline).toLocaleDateString()}</div>
+                 
                 </div>
               </CardContent>
             </Card>
@@ -291,38 +288,10 @@ const handleSubmit = async (e: React.FormEvent) => {
               </CardContent>
             </Card>
 
-            {/* Share & Save */}
-            <Card className="shadow-lg">
-              <CardHeader>
-                <CardTitle className="text-lg">Share this Job</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <Button variant="outline" size="sm" className="w-full justify-start">
-                  <Share2 className="w-4 h-4 mr-2" />
-                  Share Job
-                </Button>
-                <Button variant="outline" size="sm" className="w-full justify-start">
-                  <Bookmark className="w-4 h-4 mr-2" />
-                  Save for Later
-                 
-                </Button>
-              </CardContent>
-            </Card>
+          
+         
 
-            {/* Contact Info */}
-            <Card className="shadow-lg">
-              <CardHeader>
-                <CardTitle className="text-lg">Questions?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-gray-600 mb-4">
-                  Have questions about this position? Get in touch with our HR team.
-                </p>
-                <Button variant="outline" size="sm" className="w-full">
-                  Contact HR
-                </Button>
-              </CardContent>
-            </Card>
+           
           </div>
         </div>
       </div>

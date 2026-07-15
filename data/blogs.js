@@ -3,7 +3,7 @@ export const blogsData = [
     id: 1,
     title: "The Future of Web Development: Trends to Watch in 2023",
     excerpt: "Explore the emerging technologies and methodologies that will shape web development in the coming year.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/blogs/blog_id_one.jpeg",
     author: "Alex Johnson",
     authorBio: "Senior Full-Stack Developer with 8+ years of experience in modern web technologies.",
     authorImage: "/placeholder.svg?height=100&width=100",
@@ -130,7 +130,7 @@ module.exports = {
     title: "How to Implement Effective DevOps Practices in Your Organization",
     excerpt:
       "Learn the key strategies for successful DevOps implementation that can transform your development process.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/assets/blogs/blog_id_two.webp",
     author: "Samantha Chen",
     authorBio: "DevOps Engineer and Cloud Architecture Specialist with expertise in CI/CD and automation.",
     authorImage: "/placeholder.svg?height=100&width=100",
@@ -338,4 +338,296 @@ resource "aws_security_group" "web_sg" {
       accentColor: "#38a169",
     },
   },
+  {
+  id: 3,
+  title: "Building Scalable React Applications with Next.js 16",
+  excerpt:
+    "Discover the latest features in Next.js 16 and learn how to build fast, scalable, and production-ready React applications.",
+  image: "/assets/blogs/blog_id_three.png",
+  author: "Alex Morgan",
+  authorBio:
+    "Senior Frontend Engineer specializing in React, Next.js, and performance optimization.",
+  authorImage: "/placeholder.svg?height=100&width=100",
+  date: "July 10, 2026",
+  category: "Frontend Development",
+  readTime: "8 min read",
+  featured: false,
+  published: true,
+  slug: "building-scalable-react-applications-nextjs-16",
+  content: `
+    <h1>Building Scalable React Applications with Next.js 16</h1>
+
+    <p>Modern web applications require speed, scalability, and an excellent user experience. Next.js 16 introduces powerful new capabilities that help developers deliver production-ready applications faster than ever.</p>
+
+    <h2>What's New in Next.js 16?</h2>
+
+    <ul>
+      <li>Enhanced Turbopack performance</li>
+      <li>Improved server actions</li>
+      <li>Optimized image handling</li>
+      <li>Better caching strategies</li>
+      <li>Advanced routing capabilities</li>
+    </ul>
+
+    <h3>Best Practices</h3>
+
+    <ol>
+      <li>Use server components whenever possible</li>
+      <li>Optimize images and fonts</li>
+      <li>Split large components into smaller modules</li>
+      <li>Implement proper caching</li>
+    </ol>
+
+    <blockquote>
+      <p>"Performance is no longer optional—it's a core feature."</p>
+      <cite>- Alex Morgan</cite>
+    </blockquote>
+
+    <p>By adopting these techniques, teams can create applications that scale seamlessly as their user base grows.</p>
+  `,
+  tags: ["React", "Next.js", "Frontend", "Performance"],
+  style: {
+    theme: "modern",
+    backgroundColor: "#ffffff",
+    textColor: "#333333",
+    accentColor: "#2563eb",
+  },
+},
+{
+  id: 4,
+  title: "A Complete Guide to Modern UI/UX Design Trends",
+  excerpt:
+    "Explore the latest design trends shaping web and mobile experiences in 2026.",
+  image: "/assets/blogs/blog_id_four.jpeg",
+  author: "Emma Wilson",
+  authorBio:
+    "UI/UX Designer with expertise in digital products and design systems.",
+  authorImage: "/placeholder.svg?height=100&width=100",
+  date: "June 28, 2026",
+  category: "Design",
+  readTime: "7 min read",
+  featured: false,
+  published: true,
+  slug: "modern-ui-ux-design-trends-guide",
+  content: `
+    <h1>Modern UI/UX Design Trends</h1>
+
+    <p>User expectations continue to evolve, and businesses must adapt by delivering intuitive, engaging experiences.</p>
+
+    <h2>Top Trends in 2026</h2>
+
+    <ul>
+      <li>Glassmorphism interfaces</li>
+      <li>Minimalist layouts</li>
+      <li>Dark mode by default</li>
+      <li>Micro-interactions</li>
+      <li>AI-assisted personalization</li>
+    </ul>
+
+    <div style="background-color: #eff6ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+      <h3>🎨 Design Tip</h3>
+      <p>Consistency across components improves user trust and usability.</p>
+    </div>
+
+    <h3>Building Better Experiences</h3>
+
+    <p>Great design balances aesthetics with usability. Focus on accessibility, responsiveness, and performance.</p>
+
+    <blockquote>
+      <p>"Good design is invisible. Great design feels effortless."</p>
+      <cite>- Emma Wilson</cite>
+    </blockquote>
+
+    <p>Investing in UX design often results in higher conversion rates and customer satisfaction.</p>
+  `,
+  tags: ["UI", "UX", "Design", "Web"],
+  style: {
+    theme: "creative",
+    backgroundColor: "#ffffff",
+    textColor: "#222222",
+    accentColor: "#7c3aed",
+  },
+},
+{
+  id: 5,
+  title: "Cloud Computing Essentials for Growing Businesses",
+  excerpt:
+    "Learn how cloud infrastructure can improve scalability, security, and operational efficiency.",
+  image: "/assets/blogs/blog_id_five.webp",
+  author: "Daniel Roberts",
+  authorBio:
+    "Cloud Solutions Architect with extensive experience in AWS and Azure.",
+  authorImage: "/placeholder.svg?height=100&width=100",
+  date: "July 2, 2026",
+  category: "Cloud Computing",
+  readTime: "9 min read",
+  featured: false,
+  published: true,
+  slug: "cloud-computing-essentials-businesses",
+  content: `
+    <h1>Cloud Computing Essentials</h1>
+
+    <p>Cloud infrastructure has transformed the way businesses operate, enabling rapid growth and flexibility.</p>
+
+    <h2>Why Businesses Choose the Cloud</h2>
+
+    <ul>
+      <li>Reduced infrastructure costs</li>
+      <li>High availability</li>
+      <li>Automatic scaling</li>
+      <li>Improved security</li>
+    </ul>
+
+    <table style="width: 100%; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th style="border: 1px solid #ddd; padding: 10px;">Provider</th>
+          <th style="border: 1px solid #ddd; padding: 10px;">Strength</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 10px;">AWS</td>
+          <td style="border: 1px solid #ddd; padding: 10px;">Scalability</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 10px;">Azure</td>
+          <td style="border: 1px solid #ddd; padding: 10px;">Enterprise integration</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 10px;">Google Cloud</td>
+          <td style="border: 1px solid #ddd; padding: 10px;">Data analytics</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <blockquote>
+      <p>"Cloud adoption is no longer a luxury—it's a business necessity."</p>
+      <cite>- Daniel Roberts</cite>
+    </blockquote>
+
+    <p>Companies that embrace cloud technologies gain agility and a competitive advantage.</p>
+  `,
+  tags: ["Cloud", "AWS", "Azure", "Infrastructure"],
+  style: {
+    theme: "professional",
+    backgroundColor: "#f8fafc",
+    textColor: "#1e293b",
+    accentColor: "#0ea5e9",
+  },
+},
+{
+  id: 6,
+  title: "Cybersecurity Best Practices Every Company Should Follow",
+  excerpt:
+    "Protect your applications and infrastructure with these essential cybersecurity strategies.",
+  image: "/assets/blogs/blog_id_six.jpg",
+  author: "Sophia Martinez",
+  authorBio:
+    "Cybersecurity consultant specializing in application security and risk management.",
+  authorImage: "/placeholder.svg?height=100&width=100",
+  date: "June 21, 2026",
+  category: "Cybersecurity",
+  readTime: "11 min read",
+  featured: false,
+  published: true,
+  slug: "cybersecurity-best-practices-companies",
+  content: `
+    <h1>Cybersecurity Best Practices</h1>
+
+    <p>As businesses become increasingly digital, cybersecurity has become a critical priority.</p>
+
+    <h2>Core Security Measures</h2>
+
+    <ul>
+      <li>Enable multi-factor authentication</li>
+      <li>Encrypt sensitive data</li>
+      <li>Conduct regular security audits</li>
+      <li>Train employees on phishing threats</li>
+    </ul>
+
+    <div style="background-color: #fef2f2; border-left: 4px solid #dc2626; padding: 20px; margin: 20px 0;">
+      <h3>⚠️ Security Alert</h3>
+      <p>Human error remains one of the leading causes of security breaches.</p>
+    </div>
+
+    <h3>Creating a Security Culture</h3>
+
+    <p>Technology alone cannot solve security challenges. Organizations must build awareness and accountability.</p>
+
+    <blockquote>
+      <p>"Security is everyone's responsibility."</p>
+      <cite>- Sophia Martinez</cite>
+    </blockquote>
+
+    <p>Strong cybersecurity practices protect both businesses and their customers.</p>
+  `,
+  tags: ["Cybersecurity", "Security", "Privacy", "Technology"],
+  style: {
+    theme: "dark",
+    backgroundColor: "#f8fafc",
+    textColor: "#111827",
+    accentColor: "#dc2626",
+  },
+},
+{
+  id: 7,
+  title: "Artificial Intelligence and the Future of Software Development",
+  excerpt:
+    "Explore how AI-powered tools are changing the way developers write, test, and deploy software.",
+  image: "/assets/blogs/blog_id_seven.webp",
+  author: "James Carter",
+  authorBio:
+    "Software architect focused on AI-driven development workflows.",
+  authorImage: "/placeholder.svg?height=100&width=100",
+  date: "July 14, 2026",
+  category: "Artificial Intelligence",
+  readTime: "12 min read",
+  featured: true,
+  published: true,
+  slug: "artificial-intelligence-future-software-development",
+  content: `
+    <h1>Artificial Intelligence and Software Development</h1>
+
+    <p>AI is rapidly transforming software engineering by automating repetitive tasks and improving productivity.</p>
+
+    <h2>Where AI Is Making an Impact</h2>
+
+    <ul>
+      <li>Code generation</li>
+      <li>Automated testing</li>
+      <li>Bug detection</li>
+      <li>Documentation creation</li>
+      <li>Performance optimization</li>
+    </ul>
+
+    <h3>Popular AI Tools</h3>
+
+    <ol>
+      <li>AI coding assistants</li>
+      <li>Automated QA systems</li>
+      <li>Smart deployment pipelines</li>
+      <li>Predictive analytics platforms</li>
+    </ol>
+
+    <div style="background: linear-gradient(135deg, #0f172a, #1e293b); color: white; padding: 25px; border-radius: 10px; margin: 20px 0;">
+      <h3>🚀 Looking Ahead</h3>
+      <p>AI will augment developers rather than replace them, enabling teams to build products faster.</p>
+    </div>
+
+    <blockquote>
+      <p>"The future belongs to developers who know how to collaborate with AI."</p>
+      <cite>- James Carter</cite>
+    </blockquote>
+
+    <p>The next generation of software development will combine human creativity with machine intelligence.</p>
+  `,
+  tags: ["AI", "Software", "Machine Learning", "Development"],
+  style: {
+    theme: "modern",
+    backgroundColor: "#ffffff",
+    textColor: "#1f2937",
+    accentColor: "#8b5cf6",
+  },
+},
 ]

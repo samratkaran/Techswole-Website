@@ -75,72 +75,7 @@ export const company = [
       ],
     },
   },
-  {
-    id: "team",
-    title: "Our Team",
-    description: "Meet our talented team of professionals.",
-    icon: "Users",
-    image: "/placeholder.svg?height=600&width=1200",
-    tags: ["Leadership", "Developers", "Designers", "Culture"],
-    content: {
-      overview:
-        "Our success is driven by our exceptional team of experts who bring passion, creativity, and technical excellence to every project. We foster a collaborative environment where innovation thrives.",
-      sections: [
-        {
-          type: "custom",
-          title: "Leadership Team",
-          content: `
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-              <div class="text-center">
-                <div class="w-32 h-32 rounded-full bg-gray-200 mx-auto mb-4"></div>
-                <h4 class="text-xl font-bold">Alex Johnson</h4>
-                <p class="text-gray-600">Founder & CEO</p>
-                <p class="mt-2 text-sm">With over 15 years of experience in software development and business leadership.</p>
-              </div>
-              <div class="text-center">
-                <div class="w-32 h-32 rounded-full bg-gray-200 mx-auto mb-4"></div>
-                <h4 class="text-xl font-bold">Samantha Chen</h4>
-                <p class="text-gray-600">CTO</p>
-                <p class="mt-2 text-sm">Expert in cloud architecture and AI with a background in computer science.</p>
-              </div>
-              <div class="text-center">
-                <div class="w-32 h-32 rounded-full bg-gray-200 mx-auto mb-4"></div>
-                <h4 class="text-xl font-bold">Michael Rodriguez</h4>
-                <p class="text-gray-600">Design Director</p>
-                <p class="mt-2 text-sm">Award-winning designer with a passion for creating exceptional user experiences.</p>
-              </div>
-            </div>
-          `,
-        },
-        {
-          type: "custom",
-          title: "Our Culture",
-          content: `
-            <div class="prose max-w-none mb-6">
-              <p class="mb-4">We believe in creating a positive work environment where team members can grow professionally and personally. Our culture is built on collaboration, innovation, and continuous learning.</p>
-              <p>We invest in our team's development through training programs, conference attendance, and regular knowledge-sharing sessions. We also promote work-life balance and offer flexible working arrangements.</p>
-            </div>
-            <div class="bg-black text-white p-6 rounded-lg">
-              <h4 class="text-xl font-bold mb-4">Join Our Team</h4>
-              <p class="mb-4">We're always looking for talented individuals to join our team. If you're passionate about technology and innovation, we'd love to hear from you.</p>
-              <button class="bg-white text-black px-6 py-2 rounded">View Open Positions</button>
-            </div>
-          `,
-        },
-        {
-          type: "features",
-          title: "Benefits of Working With Us",
-          items: [
-            "Competitive salary and benefits",
-            "Professional development opportunities",
-            "Flexible working arrangements",
-            "Collaborative and supportive environment",
-            "Work on challenging and innovative projects",
-          ],
-        },
-      ],
-    },
-  },
+ 
   {
     id: "partners",
     title: "Our Partners",

@@ -19,7 +19,7 @@ export const skillsData = {
           image: "/placeholder.svg?height=300&width=400",
           level: "Expert",
           experience: "5+ years",
-          projects: 150,
+          projects: 30,
           tags: ["JavaScript", "JSX", "Hooks", "Redux"],
           features: [
             "Component-based architecture",

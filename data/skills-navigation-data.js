@@ -21,7 +21,7 @@ export const skillsNavigationData = {
           image: "/placeholder.svg?height=400&width=600",
           level: "Expert",
           experience: "5+ years",
-          projects: 200,
+          projects: 30,
           rating: 5,
           tags: ["JavaScript", "JSX", "Hooks", "Redux", "Context API"],
           features: [

@@ -165,7 +165,7 @@ export function Header() {
                   </span>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <div className="grid w-[400px] gap-3 p-4 md:w-[600px] md:grid-cols-3 lg:w-[800px]">
+                  <div className="grid w-[400px] gap-3 p-4 md:w-[600px] md:grid-cols-2 lg:w-[800px]">
                     {company.map((item) => (
                       <NavigationMenuLink asChild key={item.title}>
                         <Link

@@ -78,7 +78,7 @@ export function NewsBlogsSection() {
           excerpt={blog.excerpt}
           image={blog.image}
           date={blog.date}
-          author={blog.author}
+        
           url={`/article/${blog.slug}`}
         />
       ))}

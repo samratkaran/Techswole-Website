@@ -70,11 +70,7 @@ export function Footer() {
                   About
                 </Link>
               </li>
-              <li>
-                <Link href="/company/team" className="text-gray-600 hover:text-black hover:underline">
-                  Team
-                </Link>
-              </li>
+           
               <li>
                 <Link href="/careers" className="text-gray-600 hover:text-black hover:underline">
                   Careers

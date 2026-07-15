@@ -290,7 +290,7 @@ export default function TechnologyPage({ params }: { params: { id: string } }) {
           <div
             className={`rounded-3xl bg-gradient-to-br ${category.color} p-8 text-white text-center relative overflow-hidden`}
           >
-            <div className="absolute inset-0 bg-black/10"></div>
+            <div className="absolute inset-0 bg-red-500"></div>
             <div className="relative z-10">
               <h2 className="mb-4 text-3xl font-bold">Ready to leverage {technology.name} for your project?</h2>
               <p className="mb-6 text-lg opacity-90">
