@@ -85,11 +85,7 @@ export function TestimonialsSection() {
                 "{testimonials[currentIndex].content}"
               </blockquote>
               <div className="flex items-center justify-center">
-                <img
-                  src={testimonials[currentIndex].image || "/placeholder.svg"}
-                  alt={testimonials[currentIndex].name}
-                  className="mr-4 h-12 w-12 rounded-full object-cover"
-                />
+              
                 <div>
                   <p className="font-semibold">{testimonials[currentIndex].name}</p>
                   <p className="text-sm text-gray-600">{testimonials[currentIndex].role}</p>
