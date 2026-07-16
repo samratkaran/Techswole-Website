@@ -21,7 +21,7 @@ export default function CompanyPage() {
 
           <div className="mb-16 flex justify-center items-center overflow-hidden rounded-lg">
             <Image
-              src={logotech}
+              src={logotech || null}
               alt={companyData.title}
               width={1000}
               height={600}
@@ -30,7 +30,7 @@ export default function CompanyPage() {
           </div>
 
           {/* Company Sections Grid */}
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
             {companyData.sections.map((section) => (
               <Link href={`/company/${section.id}`} key={section.id}>
                 <div className="h-full rounded-lg border border-gray-200 p-6 transition-all hover:-translate-y-1 hover:shadow-md">

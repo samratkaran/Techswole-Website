@@ -108,15 +108,7 @@ export default function CompanyPage({ params }: { params: { id: string } }) {
           )}
 
           {/* Hero Image */}
-          <div className="mb-16 flex justify-center items-center overflow-hidden ">
-            <Image
-              src={section.image || "/placeholder.svg"}
-              alt={section.title}
-              width={900}
-              height={200}
-              className="object-cover"
-            />
-          </div>
+   
 
           {/* Overview */}
           <div className="mb-16">

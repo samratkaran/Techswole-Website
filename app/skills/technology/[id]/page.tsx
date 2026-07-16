@@ -56,7 +56,7 @@ export default function TechnologyPage({ params }: { params: { id: string } }) {
           </Link>
 
           {/* Hero Section */}
-          <div className="mb-16 grid gap-12 lg:grid-cols-2">
+          <div className="mb-16 grid gap-12 lg:grid-cols-1">
             <div>
               <div className="mb-6 flex items-center space-x-4">
                 <div
@@ -130,21 +130,7 @@ export default function TechnologyPage({ params }: { params: { id: string } }) {
               </div>
             </div>
 
-            <div className="flex items-center justify-center">
-              <div className="relative overflow-hidden rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                <Image
-                  src={technology.image || "/placeholder.svg"}
-                  alt={technology.name}
-                  width={600}
-                  height={400}
-                  className="w-full object-cover"
-                />
-                <div className={`absolute inset-0 bg-gradient-to-br opacity-20 ${category.color}`} />
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-sm font-medium">
-                  {technology.level}
-                </div>
-              </div>
-            </div>
+          
           </div>
 
           {/* Features Section */}
