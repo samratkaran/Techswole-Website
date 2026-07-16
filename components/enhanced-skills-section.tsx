@@ -193,7 +193,7 @@ export function EnhancedSkillsSection() {
                     <div className="flex space-x-3">
                       <Link
                         href={`/skills/technology/${tech.id}`}
-                        className="flex-1 rounded-lg bg-red-500 cursor-pointer px-4 py-2 text-center text-sm font-medium text-white transition-all  duration-300 hover:bg-gray-800"
+                        className="flex-1 rounded-lg bg-blue-950 cursor-pointer px-4 py-2 text-center text-sm font-medium text-white transition-all  duration-300 hover:bg-gray-800"
                       >
                         <span className="flex cursor-pointer items-center justify-center space-x-2">
                           <span>Learn More</span>
@@ -202,7 +202,7 @@ export function EnhancedSkillsSection() {
                       </Link>
                        <button
               onClick={openModal}
-              className="group relative rounded-md bg-black px-8 py-2 text-white "
+              className="group relative rounded-md bg-gray-800 px-8 py-2 text-white "
             >
               <span className="relative z-10">Contact</span>
               <span className="absolute bottom-0 left-0 h-0 w-full bg-gray-700 "></span>
