@@ -12,7 +12,7 @@ export const skillsData = {
       color: "from-blue-500 to-purple-600",
       technologies: [
         {
-          id: "react",
+          id: "reactjs",
           name: "React",
           description: "A JavaScript library for building user interfaces with component-based architecture",
           icon: "⚛️",
@@ -58,7 +58,7 @@ export const skillsData = {
           ],
         },
         {
-          id: "vue",
+          id: "vuejs",
           name: "Vue.js",
           description: "Progressive JavaScript framework for building user interfaces and single-page applications",
           icon: "🟢",

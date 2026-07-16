@@ -9,6 +9,7 @@ import { ArrowRight, Star, TrendingUp, Users } from "lucide-react"
 import { useContactModal } from "@/context/contact-modal-context"
 
 export function EnhancedSkillsSection() {
+ 
   const { openModal } = useContactModal()
   const [activeCategory, setActiveCategory] = useState(skillsData.categories[0].id)
   const [hoveredTech, setHoveredTech] = useState<string | null>(null)
@@ -192,16 +193,16 @@ export function EnhancedSkillsSection() {
                     <div className="flex space-x-3">
                       <Link
                         href={`/skills/technology/${tech.id}`}
-                        className="flex-1 rounded-lg bg-black px-4 py-2 text-center text-sm font-medium text-white transition-all duration-300 hover:bg-gray-800"
+                        className="flex-1 rounded-lg bg-red-500 cursor-pointer px-4 py-2 text-center text-sm font-medium text-white transition-all  duration-300 hover:bg-gray-800"
                       >
-                        <span className="flex items-center justify-center space-x-2">
+                        <span className="flex cursor-pointer items-center justify-center space-x-2">
                           <span>Learn More</span>
                           <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                         </span>
                       </Link>
                        <button
               onClick={openModal}
-              className="group relative rounded-md bg-black px-8 py-3 text-white "
+              className="group relative rounded-md bg-black px-8 py-2 text-white "
             >
               <span className="relative z-10">Contact</span>
               <span className="absolute bottom-0 left-0 h-0 w-full bg-gray-700 "></span>
@@ -210,13 +211,13 @@ export function EnhancedSkillsSection() {
                   </div>
 
                   {/* Hover Effect Overlay */}
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-to-br opacity-0 transition-opacity duration-300"
-                    style={{
-                      backgroundImage: `linear-gradient(135deg, ${activeSkills.color.split(" ")[1]}20, ${activeSkills.color.split(" ")[3]}20)`,
-                    }}
-                    animate={{ opacity: hoveredTech === tech.id ? 1 : 0 }}
-                  />
+                 <motion.div
+  className="pointer-events-none absolute inset-0 bg-gradient-to-br opacity-0 transition-opacity duration-300"
+  style={{
+    backgroundImage: `linear-gradient(...)`,
+  }}
+  animate={{ opacity: hoveredTech === tech.id ? 1 : 0 }}
+/>
                 </motion.div>
               ))}
             </motion.div>
