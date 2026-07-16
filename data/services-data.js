@@ -5,7 +5,7 @@ export const servicesData = {
   subtitle: "Comprehensive solutions for your business needs",
   description:
     "We offer a wide range of software development services to help businesses transform their digital presence and operations. Our expert team delivers custom solutions tailored to your specific requirements.",
-  heroImage: "/placeholder.svg?height=600&width=1200",
+  heroImage: "/logotech.png",
   contactCta: {
     title: "Ready to start your project?",
     description: "Contact us today to discuss how we can help you achieve your goals.",

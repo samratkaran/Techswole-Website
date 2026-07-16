@@ -37,15 +37,6 @@ export default function ServicesPage() {
             <p className="mx-auto max-w-3xl text-gray-600">{servicesData.description}</p>
           </div>
 
-          <div className="mb-16 overflow-hidden rounded-lg">
-            <Image
-              src={servicesData.heroImage || "/placeholder.svg"}
-              alt={servicesData.title}
-              width={100}
-              height={100}
-              className="w-full object-cover"
-            />
-          </div>
 
           {/* Services Grid */}
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

@@ -282,19 +282,19 @@ const handleSubmit = async (e: React.FormEvent) => {
               <h3 className="font-semibold text-lg mb-4">Why Choose Us?</h3>
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-600">500+</div>
+                  <div className="text-2xl font-bold text-blue-600">250+</div>
                   <div className="text-sm text-gray-600">Projects Completed</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-purple-600">98%</div>
-                  <div className="text-sm text-gray-600">Client Satisfaction</div>
+                  <div className="text-sm text-gray-600">On Time Project Delivery</div>
                 </div>
                 <div className="text-center">
                   <div className="text-2xl font-bold text-green-600">24/7</div>
                   <div className="text-sm text-gray-600">Support Available</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-orange-600">10+</div>
+                  <div className="text-2xl font-bold text-orange-600">12+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
                 </div>
               </div>

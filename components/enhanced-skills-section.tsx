@@ -6,8 +6,10 @@ import { motion, AnimatePresence } from "framer-motion"
 import { skillsData } from "@/data/skills-data"
 import { ContactButton } from "@/components/contact-button"
 import { ArrowRight, Star, TrendingUp, Users } from "lucide-react"
+import { useContactModal } from "@/context/contact-modal-context"
 
 export function EnhancedSkillsSection() {
+  const { openModal } = useContactModal()
   const [activeCategory, setActiveCategory] = useState(skillsData.categories[0].id)
   const [hoveredTech, setHoveredTech] = useState<string | null>(null)
 
@@ -197,12 +199,13 @@ export function EnhancedSkillsSection() {
                           <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                         </span>
                       </Link>
-                      <ContactButton
-                        className="rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium transition-all duration-300 hover:border-black hover:bg-black hover:text-white"
-                        variant="outline"
-                      >
-                        Contact
-                      </ContactButton>
+                       <button
+              onClick={openModal}
+              className="group relative rounded-md bg-black px-8 py-3 text-white "
+            >
+              <span className="relative z-10">Contact</span>
+              <span className="absolute bottom-0 left-0 h-0 w-full bg-gray-700 "></span>
+            </button>
                     </div>
                   </div>
 

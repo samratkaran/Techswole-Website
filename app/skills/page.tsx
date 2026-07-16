@@ -41,7 +41,7 @@ export default function SkillsPage() {
                 </div>
 
                 {/* Technologies Grid */}
-                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                   {category.technologies.map((tech, techIndex) => (
                     <Link
                       key={tech.id}
