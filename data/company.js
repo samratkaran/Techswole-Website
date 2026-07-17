@@ -8,7 +8,7 @@ export const company = [
     tags: ["History", "Mission", "Values", "Vision"],
     content: {
       overview:
-        "Founded in 2010, our company has been at the forefront of software innovation for over a decade. We've helped hundreds of businesses transform their operations through custom software solutions.",
+        "Founded in 2017, our company has been at the forefront of software innovation for over a decade. We've helped hundreds of businesses transform their operations through custom software solutions.",
       sections: [
         {
           type: "custom",
@@ -54,19 +54,19 @@ export const company = [
           content: `
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div class="text-center p-4 border border-gray-200 rounded-lg">
-                <p class="text-3xl font-bold mb-2">12+</p>
+                <p class="text-3xl font-bold mb-2">9+</p>
                 <p class="text-sm text-gray-600">Years in Business</p>
               </div>
               <div class="text-center p-4 border border-gray-200 rounded-lg">
-                <p class="text-3xl font-bold mb-2">150+</p>
+                <p class="text-3xl font-bold mb-2">30+</p>
                 <p class="text-sm text-gray-600">Team Members</p>
               </div>
               <div class="text-center p-4 border border-gray-200 rounded-lg">
-                <p class="text-3xl font-bold mb-2">500+</p>
+                <p class="text-3xl font-bold mb-2">250+</p>
                 <p class="text-sm text-gray-600">Projects Completed</p>
               </div>
               <div class="text-center p-4 border border-gray-200 rounded-lg">
-                <p class="text-3xl font-bold mb-2">30+</p>
+                <p class="text-3xl font-bold mb-2">5+</p>
                 <p class="text-sm text-gray-600">Countries Served</p>
               </div>
             </div>

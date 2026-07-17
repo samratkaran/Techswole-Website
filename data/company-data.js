@@ -19,7 +19,7 @@ export const companyData = {
       content: (
         <>
           <p className="mb-4">
-            Founded in 2010, our company has been at the forefront of software innovation for over a decade. We've
+            Founded in 2017, our company has been at the forefront of software innovation for over a decade. We've
             helped hundreds of businesses transform their operations through custom software solutions.
           </p>
           <h3 className="text-xl font-bold mb-2">Our Mission</h3>
@@ -35,11 +35,11 @@ export const companyData = {
           <div className="bg-gray-100 p-4 rounded-lg mb-4">
             <h4 className="font-bold mb-2">Company Facts</h4>
             <ul className="list-disc pl-6">
-              <li>Founded in 2010</li>
+              <li>Founded in 2017</li>
               <li>Headquartered in Tech City with offices in 5 countries</li>
-              <li>Team of 150+ professionals</li>
-              <li>Completed 500+ projects</li>
-              <li>Served clients in 30+ countries</li>
+              <li>Team of 30+ professionals</li>
+              <li>Completed 250+ projects</li>
+              <li>Served clients in 5+ countries</li>
             </ul>
           </div>
         </>

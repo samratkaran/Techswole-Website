@@ -74,19 +74,19 @@ export const companyDataEnhanced = {
             content: `
               <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                 <div class="text-center p-6 bg-white rounded-xl shadow-lg border border-gray-100">
-                  <p class="text-4xl font-bold mb-2 text-blue-600">12+</p>
+                  <p class="text-4xl font-bold mb-2 text-blue-600">9+</p>
                   <p class="text-sm text-gray-600 font-medium">Years in Business</p>
                 </div>
                 <div class="text-center p-6 bg-white rounded-xl shadow-lg border border-gray-100">
-                  <p class="text-4xl font-bold mb-2 text-green-600">150+</p>
+                  <p class="text-4xl font-bold mb-2 text-green-600">30+</p>
                   <p class="text-sm text-gray-600 font-medium">Team Members</p>
                 </div>
                 <div class="text-center p-6 bg-white rounded-xl shadow-lg border border-gray-100">
-                  <p class="text-4xl font-bold mb-2 text-purple-600">500+</p>
+                  <p class="text-4xl font-bold mb-2 text-purple-600">250+</p>
                   <p class="text-sm text-gray-600 font-medium">Projects Completed</p>
                 </div>
                 <div class="text-center p-6 bg-white rounded-xl shadow-lg border border-gray-100">
-                  <p class="text-4xl font-bold mb-2 text-orange-600">30+</p>
+                  <p class="text-4xl font-bold mb-2 text-orange-600">5+</p>
                   <p class="text-sm text-gray-600 font-medium">Countries Served</p>
                 </div>
               </div>
