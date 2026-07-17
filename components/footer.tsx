@@ -17,15 +17,22 @@ export function Footer() {
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-black">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+              <Link href="https://x.com/techswole_india" className="text-gray-400 hover:text-black">
+                <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+  fill="currentColor"
+  className="h-5 w-5"
+>
+  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.847h-7.406l-5.8-7.584-6.639 7.584H.474l8.6-9.83L0 1.153h7.594l5.243 6.932L18.901 1.153Zm-1.29 19.494h2.04L6.486 3.24H4.298L17.611 20.647Z" />
+</svg>
+                <span className="sr-only">X</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-black">
+              <Link href="https://www.instagram.com/tech_swole?utm_source=qr" className="text-gray-400 hover:text-black">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-black">
+              <Link href="https://www.linkedin.com/company/techswole/" className="text-gray-400 hover:text-black">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
@@ -91,8 +98,8 @@ export function Footer() {
           <div>
             <h3 className="mb-4 text-lg font-semibold">Contact</h3>
             <address className="not-italic">
-              <p className="mb-2 text-gray-600">Unit 151, JMD Megapolis, </p>
-              <p className="mb-2 text-gray-600">Sector 48, Gurugram (122018)</p>
+              <a href="https://maps.app.goo.gl/fpsUR1wm8xU9hHAr7"  className="mb-2 text-gray-600">Unit 151, JMD Megapolis, </a>
+              <a href="https://maps.app.goo.gl/fpsUR1wm8xU9hHAr7"  className="mb-2 text-gray-600">Sector 48, Gurugram (122018)</a>
              
               <p className="mb-2 text-gray-600">
                 <a href="tel:+918826211177" className="hover:underline">
@@ -101,7 +108,7 @@ export function Footer() {
               </p>
               <p className="text-gray-600">
                 <a href="mailto:info@company.com" className="hover:underline">
-                  Jrbtechswole@gmail.com
+                  infojrbtechswole@gmail.com
                 </a>
               </p>
             </address>
