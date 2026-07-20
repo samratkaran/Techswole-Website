@@ -13,7 +13,7 @@ export function Footer() {
               sizes.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-black">
+              <Link href="https://www.facebook.com/share/1JxenSAPoZ/?mibextid=wwXIfr" className="text-gray-400 hover:text-black">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>

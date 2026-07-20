@@ -26,7 +26,7 @@ export default function ServicePage({ params }: { params: { id: string } }) {
       <Header />
 
       <section className="bg-white pt-24 pb-6">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 pt-5">
           <Breadcrumb items={[{ label: "Services", href: "/services" }, { label: service.title }]} />
         </div>
       </section>

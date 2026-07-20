@@ -13,8 +13,8 @@ export default function SkillsPage() {
 
       {/* Breadcrumb Section */}
       <section className="bg-white pt-24 pb-6">
-        <div className="container mx-auto px-4">
-          <Breadcrumb items={[{ label: "Skills" }]} />
+        <div className="container mx-auto px-4 pt-5">
+          <Breadcrumb items={[{ label: "Skills" , href: "/skills"  }]} />
         </div>
       </section>
 
