@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import imageofsir from "@/public/ceo.jpg"
+import photo from "../public/photo.jpg"
 import { motion } from "framer-motion"
 
 // Team member data
@@ -12,7 +12,7 @@ const teamMembers = [
     id: 1,
     name: "Jaskanwarjeet Singh Bakshi",
     role: "Founder & CEO",
-    image: imageofsir,
+    image: photo,
     bio: "With over 9+ years of experience in software development and business leadership, Jaskanwarjeet Singh Bakshi founded TechSwole with a vision to create innovative solutions that transform businesses.",
   },
 
