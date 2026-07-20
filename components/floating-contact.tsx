@@ -16,7 +16,7 @@ export function FloatingContact() {
           <>
             {/* WhatsApp */}
             <motion.a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/8826211177"
               target="_blank"
               rel="noopener noreferrer"
               className="absolute bottom-24 right-0 flex h-12 w-12 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-all hover:bg-green-600"
@@ -35,7 +35,7 @@ export function FloatingContact() {
 
             {/* Email */}
             <motion.a
-              href="mailto:info@company.com"
+              href="mailto:infojrbtechswole@gmail.com"
               className="absolute bottom-16 right-0 flex h-12 w-12 items-center justify-center rounded-full bg-blue-500 text-white shadow-lg transition-all hover:bg-blue-600"
               initial={{ opacity: 0, y: 20, scale: 0.8 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -49,7 +49,7 @@ export function FloatingContact() {
 
             {/* Phone */}
             <motion.a
-              href="tel:+1234567890"
+              href="tel:+918826211177"
               className="absolute bottom-8 right-0 flex h-12 w-12 items-center justify-center rounded-full bg-purple-500 text-white shadow-lg transition-all hover:bg-purple-600"
               initial={{ opacity: 0, y: 20, scale: 0.8 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
